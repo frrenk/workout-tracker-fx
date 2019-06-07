@@ -29,7 +29,7 @@
                   <TableColumn fx:id="durationColumn" prefWidth="119.0" text="Duration" />
               </columns>
             </TableView>
-            <Button fx:id="deleteWorkoutButton" layoutX="493.0" layoutY="499.0" mnemonicParsing="false" text="Delete Workout" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="5.0" />
+            <Button fx:id="deleteWorkoutButton" layoutX="493.0" layoutY="499.0" mnemonicParsing="false" onAction="#deleteWorkout" text="Delete Workout" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="5.0" />
          </children></AnchorPane>
   </items>
 </SplitPane>
