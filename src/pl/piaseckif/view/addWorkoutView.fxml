@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.piaseckif.controller.addWorkoutController">
+    <children>
+        <Label layoutX="42.0" layoutY="28.0" text="Set Workout Date" />
+        <DatePicker fx:id="newWorkoutDatePicker" layoutX="42.0" layoutY="45.0" />
+        <Button fx:id="prevDayButton" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#prevDay" text="⯇ " />
+        <Button fx:id="nextDayButton" layoutX="216.0" layoutY="45.0" mnemonicParsing="false" onAction="#nextDay" text="⯈ " />
+        <ChoiceBox fx:id="ex1ChoiceBox" layoutX="29.0" layoutY="129.0" prefWidth="150.0" />
+        <TextField fx:id="ex1SetsField" layoutX="192.0" layoutY="128.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex1repsField" layoutX="246.0" layoutY="128.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="132.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex1weightField" layoutX="300.0" layoutY="128.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex1durationField" layoutX="413.0" layoutY="128.0" />
+        <Label layoutX="30.0" layoutY="111.0" text="Exercise" />
+        <Label layoutX="193.0" layoutY="111.0" text="Sets" />
+        <Label layoutX="247.0" layoutY="111.0" text="Reps" />
+        <Label layoutX="300.0" layoutY="111.0" text="Weight" />
+        <Label layoutX="413.0" layoutY="111.0" text="Duration" />
+        <ChoiceBox fx:id="ex2ChoiceBox" layoutX="29.0" layoutY="164.0" prefWidth="150.0" />
+        <TextField fx:id="ex2SetsField" layoutX="192.0" layoutY="164.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex2repsField" layoutX="246.0" layoutY="164.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="168.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex2weightField" layoutX="300.0" layoutY="164.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex2durationField" layoutX="413.0" layoutY="164.0" />
+        <ChoiceBox fx:id="ex3ChoiceBox" layoutX="29.0" layoutY="200.0" prefWidth="150.0" />
+        <TextField fx:id="ex3SetsField" layoutX="192.0" layoutY="200.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex3repsField" layoutX="246.0" layoutY="200.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="204.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex3weightField" layoutX="300.0" layoutY="200.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex3durationField" layoutX="413.0" layoutY="200.0" />
+        <ChoiceBox fx:id="ex4ChoiceBox" layoutX="29.0" layoutY="233.0" prefWidth="150.0" />
+        <TextField fx:id="ex4SetsField" layoutX="192.0" layoutY="233.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex4repsField" layoutX="246.0" layoutY="233.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="237.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex4weightField" layoutX="300.0" layoutY="233.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex4durationField" layoutX="413.0" layoutY="233.0" />
+        <ChoiceBox fx:id="ex5ChoiceBox" layoutX="29.0" layoutY="265.0" prefWidth="150.0" />
+        <TextField fx:id="ex5SetsField" layoutX="192.0" layoutY="265.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex5repsField" layoutX="246.0" layoutY="265.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="269.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex5weightField" layoutX="300.0" layoutY="265.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex5durationField" layoutX="413.0" layoutY="265.0" />
+        <ChoiceBox fx:id="ex6ChoiceBox" layoutX="29.0" layoutY="298.0" prefWidth="150.0" />
+        <TextField fx:id="ex6SetsField" layoutX="192.0" layoutY="298.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex6repsField" layoutX="246.0" layoutY="298.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="302.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex6weightField" layoutX="300.0" layoutY="298.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex6durationField" layoutX="413.0" layoutY="298.0" />
+        <ChoiceBox fx:id="ex7ChoiceBox" layoutX="29.0" layoutY="335.0" prefWidth="150.0" />
+        <TextField fx:id="ex7SetsField" layoutX="192.0" layoutY="335.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex7repsField" layoutX="246.0" layoutY="335.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="339.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex7weightField" layoutX="300.0" layoutY="335.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex7durationField" layoutX="413.0" layoutY="335.0" />
+        <ChoiceBox fx:id="ex8ChoiceBox" layoutX="29.0" layoutY="370.0" prefWidth="150.0" />
+        <TextField fx:id="ex8SetsField" layoutX="192.0" layoutY="370.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex8repsField" layoutX="246.0" layoutY="370.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="374.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex8weightField" layoutX="300.0" layoutY="370.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex8durationField" layoutX="413.0" layoutY="370.0" />
+        <ChoiceBox fx:id="ex9ChoiceBox" layoutX="29.0" layoutY="406.0" prefWidth="150.0" />
+        <TextField fx:id="ex9SetsField" layoutX="192.0" layoutY="406.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex9repsField" layoutX="246.0" layoutY="406.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="410.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex9weightField" layoutX="300.0" layoutY="406.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex9durationField" layoutX="413.0" layoutY="406.0" />
+        <ChoiceBox fx:id="ex10ChoiceBox" layoutX="29.0" layoutY="443.0" prefWidth="150.0" />
+        <TextField fx:id="ex10SetsField" layoutX="192.0" layoutY="443.0" prefHeight="25.0" prefWidth="30.0" />
+        <TextField fx:id="ex10repsField" layoutX="246.0" layoutY="443.0" prefHeight="25.0" prefWidth="30.0" />
+        <Label layoutX="231.0" layoutY="447.0" prefHeight="17.0" prefWidth="9.0" text="X" />
+        <TextField fx:id="ex10weightField" layoutX="300.0" layoutY="443.0" prefHeight="25.0" prefWidth="87.0" />
+        <TextField fx:id="ex10durationField" layoutX="413.0" layoutY="443.0" />
+        <Button fx:id="cancelButton" layoutX="514.0" layoutY="487.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+        <Button fx:id="saveWorkoutButton" layoutX="446.0" layoutY="487.0" mnemonicParsing="false" onAction="#saveWorkout" text="Save" />
+    </children>
+</Pane>
